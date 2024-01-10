@@ -13,7 +13,7 @@ export default function App() {
         <ImageViewer placeholderImageSource={PlaceholderImage} />
       </View>
       <View style={styles.footerContainer}>
-        <Button label="Choose a photo" />
+        <Button theme="primary" label="Choose a photo" />
         <Button label="Use this photo" />
       </View>
       <StatusBar style="auto" />
@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
   },
   footerContainer: {
     flex: 1 / 3,
-    alignItems: 'center',
+    alignItems: "center",
   },
 });
